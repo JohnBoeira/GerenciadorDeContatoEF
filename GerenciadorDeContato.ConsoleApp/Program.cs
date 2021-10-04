@@ -14,7 +14,7 @@ namespace GerenciadorDeContato.ConsoleApp
             dominioContext = new DominioContext();
 
             Contato contato = new Contato("Nome", new List<Telefone>(), "Rua sei la");
-            ExcluirContato(5);
+            InserirContato();
 
             dominioContext.SaveChanges();
         }
